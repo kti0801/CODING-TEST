@@ -9,7 +9,7 @@ b aa baa → bb aa → aa →
 의 순서로 문자열을 모두 제거할 수 있으므로 1을 반환합니다.
 """
 
-# 런타임 에러
+# 나의 풀이 (runtime error)
 def removechar(slist):
     i = 0
     while i < len(slist) - 1:
